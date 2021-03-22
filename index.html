@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> 𓃠𓃟 Pet Shop KiKi</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="css/main.css"charset="utf-8"/>
+</head>
+	<body>
+		<div id="page"> 
+			<div id="header">
+				<div id="logo" class="top-bottom">
+				<img src="img/logo-top.png" alt="Logo" id="imgLogo" />
+				<h1> 𓃠PET SHOP KIKI 𓃟 </h1>
+				<img src="img/gif1.gif" alt="Logo" id="imgLogo" />
+				<img src="img/gif2.gif" alt="Logo" id="imgLogo" />
+				<img src="img/corona.gif" alt="corona" id="imgLogo" />
+				</div>
+			<div id="menu" class="menu">
+				<a href="index.html">Início</a>
+				<a href="servicos.html">Serviços</a>
+				<a href="produtos.html">Produtos</a>
+				<a href="#" class="middle" onclick="showMessage();">Contatos</a>
+			</div>
+			<div id="content">
+				<div id="carousel">
+					<div class="item item-carousel">
+						<img src="img/carousel-img-01.jpg" alt="Promoção1">
+						<div class="item-text">
+							<h2>OFERTA DA SEMANA</h2>
+							<span>Banho + Tosa com 20% de Desconto</span>
+						</div>
+						</div>
+						<div class="item item-carousel"style="display: none;">
+						<img src="img/carousel-img-02.jpg" alt="Promoção2">
+						<div class="item-text">
+							<h2>PROMOÇÃO EM RAÇÕES</h2>
+							<span>10% de desconto na compra de rações de todas as marcas e pesos</span>
+						</div>
+						</div>
+						<div class="item item-carousel" style="display: none;">
+						<img src="img/carousel-img-03.jpg" alt="Promoção3">
+						<div class="item-text">
+							<h2>NOVIDADES NA LOJA</h2>
+							<span>Confira as ultimas novidades que chegara! Corra antes que acabe!</span>
+						</div>
+						</div>
+					<h1 id="ist-title">Confira nossos destaques</h1>
+					<div id="list">
+						<div class="item">
+						<div class="item-info">
+						<img src="img/thumb-01.jpg" alt="desaque01"/>
+						<h2>Casa PET ECO</h2>
+						<p>Tamanhos P, M e G</p>
+						<p>A partir de R$ 300,00 reais </p>
+					</div>
+					</div>
+						<div class="item">
+						<div class="item-info">
+						<img src="img/thumb-02.jpg" alt="destaque2"/>
+						<h2>Shampoo Hidra</h2>
+						<p>Embalagem 5 Litros</p>
+						<p>Apenas R$60,00 reais</p>
+					</div> 
+					</div> 
+						<div class="item">
+						<div class="item-info">
+						<img src="img/thumb-03.jpg" alt="destaque3"/>
+						<h2>Ração Whiskas</h2>
+						<p>Pacote com 10 Kg</p>
+						<p> Apenas R$ 95,00 reais</p>
+					</div>
+					</div>
+						<div class="item">
+						<div class="item-info">
+						<img src="img/thumb-04.jpg" alt="destaque 4"/>
+						<h2>Anti Pulgas NexGard</h2>
+						<p>Caixa com um tablet</p>
+						<p> Apenas R$ 70,00 reais</p>
+					</div>
+					</div>
+					
+			</div>
+			<div id="footer" class="bottom">
+				<script>
+ 				 function validateForm() {
+      			var x = document.forms["myForm"]["fname"].value;
+      			var y = document.forms["myForm"]["femail"].value;
+
+      				if (x == ""||y=="") {
+         		 alert("Os campos devem ser preenchidos!");
+          		return false;
+     			 }
+      			else{
+          		alert("Em Breve entraremos em cotato!!!");
+          		
+    			  }
+ 				 }
+  </script>
+			<form name="myForm" onsubmit="return validateForm()">
+				<h3> Receba novidades por email</h3>
+               Nome: <input type="text" id="inputName" name="fname">
+               Email: <input type="email" id="inputEmail" name="femail">
+               <input type="submit" value="Enviar" class="button">
+         </form>
+		<div id="info">
+			<p>Empresa Pet Shop Kiki SA</p>
+			<p>Rua, São Paulo, Barbalha - CE</p>
+			<p>Contato: (88)9.9999-1010</p>
+			</div>
+			</div>
+	</div>
+	<script src="script/main.js"></script>
+	<script src="script/carousel.js"></script>
+	</body>
+</html>
